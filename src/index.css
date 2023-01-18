@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#background-div {
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0, 0, 0, 0.4)), url("./images/laurenjetton-169.jpg");
+}
+
+#about-background-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+}
+
+#message-box {
+  resize: none;
+}
+
+#card-div-shadow {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#inner {
+  white-space: nowrap;
+  transition: transform 0.5s;
+}
+
+#carousel-item {
+  display: inline-flex;
+  align-items: center;
+  justify-center: center;
+  color: #fff;
+}
+
+#testimonials-div {
+  background-position: center;
+  background-size: cover;  
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0, 0, 0, 0.7)), url("./images/laurenjetton-174.jpg");
+}
+
+#title-div {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0, 0, 0, 0.2));
+}
+
+.hamburger {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column nowrap;
+  z-index: 10;
+}
+
+.burger {
+  width: 2rem;
+  height: 0.25rem;
+  border-radius: 10px;
+  background-color: black;
+  transform-origin: 1px;
+  transition: all 0.3s linear;
+}
