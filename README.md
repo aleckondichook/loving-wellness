@@ -2,7 +2,7 @@
 
 A website for a chiropractic business. Shows the services the business offers, testimonials from customers, and includes a contact form for potential customers.
 
-<img src="images/screenshot.png" width="800">
+<img src="src/images/screenshot.png" width="800">
 
 ## demo app
 
